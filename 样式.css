@@ -30,7 +30,7 @@ input,select{
 #header .right{
     float:right;
     font-size: 10px;
-    margin-right:400px ;
+    margin-right:25% ;
 }
 #header .right a:hover
 { 
