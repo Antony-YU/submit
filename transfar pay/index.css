@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.container{
+    width:1060px;
+    margin:0 auto;
+}
+.inline_block{
+    display: inline-block;
+}
+#top{
+    background-color: rgb(235, 67, 58);
+    height: 30px;
+    width: 100%;
+}
+.leftbox{
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 微软雅黑,宋体;
+    color: #fff;
+}
+#top select{
+    border:0;
+    width: 170px;
+    height: 30px;
+    color: #8A6A6E;
+    text-align: center;
+}
+option{
+    background: rgb(235, 67, 58);
+    color:white;
+}
+#header{
+    height:80px;
+    width:100%;
+    border-bottom: 4px solid rgb(235, 67, 58);
+    ;
+}
+#header .container .logo span {
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 50px;
+}
+#header .container .logo {
+    width: 270px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#header .container .logo img{
+    display: inline-block;
+    width: 159px;
+    height: 50px;
+    vertical-align:-16px;
+    
+
+}
+#header .container .nav  li{
+    display: inline-block;
+    margin-left: 55px;
+    line-height: 80px;
+    height: 80px;
+   
+
+}
+#header .container .nav  li a{
+    font-size: 16px;
+    color:#5b3e41;
+}
+#header .container .nav  li a:hover{
+    color:#e94b3e;
+}
+
+
+#bars{
+    height: 32px;
+    width:100%;
+    background-color: rgb(252,250,251);
+}
+#main{
+    background-color:rgb(252,250,251);
+    height:648px;
+    width: 100%;
+
+}
+#main .container{
+    height:560px;
+    width: 1060px;
+    padding:20px;
+    background-color: rgb(255,255,255) ;
+}
+#main .main_top{
+    height: 65px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #f3e7e6;
+}
+#main .main_top p{
+    font-size: 14px;
+    color: #8a6a6e;
+    height: 19px;
+    width: 193px;
+    float: left;
+}
+#main .main_top a{
+    padding-left: 15px;
+    color: #eb4339;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+#main .top_right select{
+    width: 198px;
+    height: 30px;
+    margin:0 30px 0 10px; 
+    border: 1px solid #f3e7e6;
+    text-align: left;
+    color: #8a6a6e;
+
+}
+
+#main .top_right span{
+    font-size: 14px;
+    color: #8a6a6e;
+}
+#main .main_left{
+    height: 472px;
+    width: 240px;
+    border: 1px solid #f3e7e6;
+    margin-top:20px;
+
+}
+#main .main_left .user_up{
+    width: 240px;
+    height:213px;
+}
+#main .main_left .user_up h1{
+    width: 240px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #fefcfd;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f3e7e6;
+    color: #8a6a6e;
+    text-align: center;
+    font-weight: 400;
+}
+#main .main_left .user_up .up_main{
+    height: 19px;
+    font-size: 14px;
+    padding:0 10px;
+    margin-bottom: 20px;
+    color: #8a6a6e;
+}
+#main .main_left .user_up span{
+    width:220px;
+    height: 19px;
+    padding:0 10px;
+    margin-bottom:10px;
+    float: left;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    color:#8a6a6e;
+}
+#main .main_left  button{
+    width: 60px;
+    height: 24px;
+    border: 1px solid #f3e7e6;
+    background: #fefcfd;
+    height: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #8a6a6e;
+    margin-left: 30px;
+}
+#main .main_left button:hover{
+    background-color: #eb4339;
+    color:white;
+}
+#main .main_left .user_mid{
+    width:240px;
+    height:115px;
+    padding-bottom: 20px;
+}
+#main .main_left .user_mid .mid_day{
+    width: 120px;
+    height: 30px;
+    background-color: #eb4339;
+    color:white;
+    font-size: 14px;
+    line-height: 30px;
+    border-top: 1px solid #f3e7e6;
+    border-bottom: 1px solid #f3e7e6;
+    text-align: center;
+    font-weight: 400;
+}
+#main .main_left .user_mid .mid_mon{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: #8a6a6e;
+    text-align: center;
+    border-top: 1px solid #f3e7e6;
+    border-bottom: 1px solid #f3e7e6;
+    font-weight: 400;
+}
+#main .main_left .mid_main{
+    height: 54px;
+    padding:45px 10px 0px 10px;
+}
+#main .main_left .user_mid .mid_main p{
+    width: 220px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #8a6a6e;
+}
+#main .main_left .user_down{
+    width: 240px;
+    height: 102px;
+    padding-bottom: 20px
+}
+#main .main_left .user_down h1{
+    width: 228px;
+    height: 28px;
+    font-size: 14px;
+    background: #fefcfd;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f3e7e6;
+    border-top: 1px solid #f3e7e6;
+    color: #8a6a6e;
+    font-weight: 400;
+    padding-left: 12px;
+}
+#main .main_left .user_down p{
+    width: 220px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #8a6a6e;
+    padding-left: 12px;
+}
+#main .main_left .user_down button{
+    text-align: center;
+    margin-left: 90px;
+}
+#main .main_right{
+    height: 320px;
+    width: 800px;
+    border: 1px solid #f3e7e6;
+    margin-top:20px;
+    padding: 20px 0;
+}
+#main .main_right li{
+    width: 240px;
+    height: 140px;
+    box-sizing: border-box;
+    border: 1px solid #f3e7e6;
+    float: left;
+    margin-left: 20px;
+    background: #fefcfd;
+    display: inline-block;
+    color: #8a6a6e;
+    margin-bottom: 20px;
+}
+#main .main_right .first{
+    margin-top: 43px;
+    font-size: 14px;
+    text-align: center;
+}
+#main .main_right .last{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+#main .main_right li:hover{
+     background-color: #eb4339;
+    color:white;
+}
+#footer{
+    background-color: rgb(235, 67, 58);
+    height: 200px;
+    width: 100%;
+    padding:15px 0;
+}
+#footer .footer_way{
+    height: 140px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+#footer dl dt{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+#footer dl dd{
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 5px;
+    color: #fff;
+    
+}
+#footer dl dd img{
+    width: 77px;
+    height: 22px;
+}
+/*#footer dl dd .href{
+    height:18px;
+    vertical-align: center;
+}*/
+#footer .footer_ps{
+    display: block;
+    text-align: center;
+    padding:20px 0 10px 0;
+    font-size: 12px;
+    height: 16px;
+}
+#footer .footer_ps span{
+    padding:0 5px;
+    line-height: 16px;
+    height: 16px;
+    vertical-align:0;
+}
