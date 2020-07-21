@@ -15,7 +15,11 @@ a{
     float: right;
 }
 .container{
+<<<<<<< HEAD
     width:1060px;
+=======
+    width:1100px;
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
     margin:0 auto;
 }
 .inline_block{
@@ -39,10 +43,13 @@ a{
     color: #8A6A6E;
     text-align: center;
 }
+<<<<<<< HEAD
 option{
     background: rgb(235, 67, 58);
     color:white;
 }
+=======
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
 #header{
     height:80px;
     width:100%;
@@ -130,7 +137,10 @@ option{
     color: #8a6a6e;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
 #main .top_right span{
     font-size: 14px;
     color: #8a6a6e;
@@ -150,7 +160,11 @@ option{
     width: 240px;
     height: 30px;
     font-size: 14px;
+<<<<<<< HEAD
     background-color: #fefcfd;
+=======
+    background: #fefcfd;
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
     line-height: 30px;
     margin-bottom: 10px;
     border-bottom: 1px solid #f3e7e6;
@@ -161,21 +175,33 @@ option{
 #main .main_left .user_up .up_main{
     height: 19px;
     font-size: 14px;
+<<<<<<< HEAD
     padding:0 10px;
+=======
+    padding:0 10px 0 10px;
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
     margin-bottom: 20px;
     color: #8a6a6e;
 }
 #main .main_left .user_up span{
     width:220px;
     height: 19px;
+<<<<<<< HEAD
     padding:0 10px;
+=======
+    padding:0 10px 0 10px;
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
     margin-bottom:10px;
     float: left;
     font-size: 14px;
     font-family: PingFangSC-Regular;
     color:#8a6a6e;
 }
+<<<<<<< HEAD
 #main .main_left  button{
+=======
+#main .main_left .user_up button{
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
     width: 60px;
     height: 24px;
     border: 1px solid #f3e7e6;
@@ -186,6 +212,7 @@ option{
     color: #8a6a6e;
     margin-left: 30px;
 }
+<<<<<<< HEAD
 #main .main_left button:hover{
     background-color: #eb4339;
     color:white;
@@ -195,6 +222,12 @@ option{
     height:115px;
     padding-bottom: 20px;
 }
+=======
+#main .main_left .user_up button:hover{
+    background-color: #eb4339;
+    color:white;
+}
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
 #main .main_left .user_mid .mid_day{
     width: 120px;
     height: 30px;
@@ -217,6 +250,7 @@ option{
     border-bottom: 1px solid #f3e7e6;
     font-weight: 400;
 }
+<<<<<<< HEAD
 #main .main_left .mid_main{
     height: 54px;
     padding:45px 10px 0px 10px;
@@ -256,11 +290,14 @@ option{
     text-align: center;
     margin-left: 90px;
 }
+=======
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
 #main .main_right{
     height: 320px;
     width: 800px;
     border: 1px solid #f3e7e6;
     margin-top:20px;
+<<<<<<< HEAD
     padding: 20px 0;
 }
 #main .main_right li{
@@ -334,3 +371,14 @@ option{
     height: 16px;
     vertical-align:0;
 }
+=======
+    padding: 40px 0 40px 0;
+}
+
+
+#footer{
+    height: 100px;
+    width:100%;
+    border:1px solid #000;
+}
+>>>>>>> 6ff9f68b51bda63a0deeef44438032760eda90c6
